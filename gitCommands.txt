@@ -1,0 +1,11 @@
+git config --global user.name "charlie"
+git config --global user.email "charlie@ymail.com"
+git clone https://github.com/charlie/repo.git
+git status
+git log
+git add
+git conmmit -m "TEST COMMIT
+git remote add origin https://github.com/charlie/repo.git
+git push -u origin master
+git add .
+git pull origin master
